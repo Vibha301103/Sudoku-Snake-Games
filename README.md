@@ -1,6 +1,3 @@
-# Sudoku-Snake-Games
-This repository contains two C++ terminal-based games: Snake Game and Sudoku Solver.
-
 # Snake & Sudoku Projects 
 
 This repository contains two C++ projects demonstrating fundamental data structures, algorithms, and game logic using terminal-based applications.
