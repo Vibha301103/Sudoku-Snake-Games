@@ -1,47 +1,65 @@
-# Snake & Sudoku Projects 
+# Snake & Sudoku Projects
 
-This repository contains two C++ projects demonstrating fundamental data structures, algorithms, and game logic using terminal-based applications.
+This repository contains two terminal-based C++ projects demonstrating core programming concepts such as data structures, recursion, game logic, and algorithm implementation.
 
 ---
 
-1. Snake Game
+##  Folder Structure
 
-A classic terminal-based Snake Game written in C++.  
-It includes features like:
-- Food generation
-- Snake movement and growth
+Sudoku-Snake-Games/
+├── Snake/
+│ └── game.cpp
+├── Sudoku/
+│ └── main.cpp
+└── README.md
+
+markdown
+Copy
+Edit
+
+---
+
+## 1.  Snake Game
+
+A simple terminal-based Snake Game implemented in C++.
+
+###  Features:
+- Snake movement using `W`, `A`, `S`, `D` keys
+- Random food generation
+- Snake grows after eating food
 - Score tracking
-- Collision detection (wall and self)
+- Game over on wall or self collision
 
-### File
-- `SnakeGame/snake.cpp`
+###  File:
+- `Snake/game.cpp`
 
-### Demo
-The snake moves using `W`, `A`, `S`, `D` keys and grows each time it eats the food. The game ends when the snake collides with itself or the wall.
-
----
-
-##  2. Sudoku Solver
-
-A backtracking-based solution to solve a 9x9 Sudoku puzzle using recursion.
-
-### File
-- `SudokuSolver/sudoku.cpp`
-
-### Features
-- Uses backtracking and recursion
-- Checks validity row-wise, column-wise, and 3x3 grid-wise
-- Solves partially filled puzzles efficiently
-
----
-
-## Requirements
-- C++ compiler (like g++)
-- Terminal or command prompt
-
-## How to Run
-
-### For Snake Game:
+###  How to Compile & Run:
 ```bash
-g++ SnakeGame/snake.cpp -o snake
+g++ Snake/game.cpp -o snake
 ./snake
+
+## 2.  Sudoku Solver
+
+A backtracking-based Sudoku solver that solves a 9x9 puzzle using recursion.
+
+Features:
+Backtracking algorithm
+
+Checks rows, columns, and 3×3 subgrids for constraints
+
+Efficient and recursive implementation
+
+ File:
+Sudoku/main.cpp
+
+▶How to Compile & Run:
+bash
+Copy
+Edit
+g++ Sudoku/main.cpp -o sudoku
+./sudoku
+🛠 Requirements
+A C++ compiler (e.g., g++)
+
+Terminal or Command Prompt
+
